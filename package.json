@@ -2,7 +2,7 @@
   "name": "native-html-builder",
   "version": "1.0.0",
   "description": "A helpful HTML tools for developers - Who want to process html file by using JavaScript",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
     "test": "test"
   },
@@ -29,5 +29,8 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
