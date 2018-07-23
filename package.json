@@ -31,7 +31,9 @@
     "eslint-plugin-standard": "^3.1.0"
   },
   "dependencies": {
+    "filereader": "^0.10.3",
     "lodash": "^4.17.10",
-    "pretty": "^2.0.0"
+    "pretty": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }

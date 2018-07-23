@@ -1,5 +1,6 @@
 import { findAllClassNamePositions } from './css/classname';
 import { headerBuilder } from './html/html_builder';
+import { fetchFileFromURL } from './libs/file_libs';
 
 const getAllClassNameOfHtmlBlock = (htmlBlockAsString) => {
   const positions = findAllClassNamePositions(htmlBlockAsString);
@@ -8,4 +9,6 @@ const getAllClassNameOfHtmlBlock = (htmlBlockAsString) => {
 
 const buildTheHeader = (websiteTitle = 'TK Media Native HTML Builder', listCssFiles = []) => headerBuilder(websiteTitle, listCssFiles);
 
-export { getAllClassNameOfHtmlBlock, buildTheHeader };
+const getFileContentFromURL = (fileURL) => fetchFileFromURL(fileURL);
+
+export { getAllClassNameOfHtmlBlock, buildTheHeader, getFileContentFromURL };
