@@ -1,6 +1,6 @@
 {
   "name": "native-html-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helpful HTML tools for developers - Who want to process html file by using JavaScript",
   "main": "index",
   "scripts": {
